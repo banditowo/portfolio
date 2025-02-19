@@ -4,9 +4,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+@font-face {
+    font-family: MyFont; src: url('../fonts/MyFont1.otf');
+}
 /*general theme*/
 body {
-    font-family: Arial, sans-serif;
+    font-family: MyFont, sans-serif;
     background-color: rgb(255, 250, 250);
     color: #000000;
     line-height: 1.6;
@@ -45,7 +49,6 @@ body {
     color: white;
     padding: 5px 10px;
     text-align: right;
-    font-family: Arial;
 }
 
 .portfolio-item{
