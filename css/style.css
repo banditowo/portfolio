@@ -8,7 +8,7 @@
 @font-face {
     font-family: MyFont; src: url('../fonts/MyFont1.otf');
 }
-/*general theme*/
+/*---------general theme---------*/
 body {
     max-width: 2000px;
     font-family: MyFont, sans-serif;
@@ -23,43 +23,6 @@ body {
 .portfolio{
     background-color: #FFF3EF;
 }
-
-/*home settings*/
-
-.intro{
-    margin-top: 100px;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.intro-text{
-    padding: 5% 0 0 10%;
-    width: 50%;
-    color: rgb(63, 24, 19);
-}
-
-.intro-img{
-    border-radius: 120px 120px 10px 10px;
-    width: 400px;
-    height: 450px;
-    margin-left: 60%;
-}
-.about-me{
-    text-align: center;
-    width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;;
-}
-
-.links{
-    color: hotpink;
-    font-size: 20px;
-}
-
-
-/*main page/portfolio settings*/
 .navbar1{
     background-color: #FFF3EF;
     color: white;
@@ -87,6 +50,42 @@ body {
     padding-left: 20px;
 }
 
+/*---------home settings---------*/
+
+.intro{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intro-text{
+    padding: 5% 0 0 10%;
+    width: 50%;
+    color: rgb(63, 24, 19);
+}
+
+.intro-img{
+    border-radius: 120px 120px 10px 10px;
+    width: 400px;
+    height: 450px;
+    margin-left: 60%;
+}
+.about-me{
+    text-align: center;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    color: rgb(63, 24, 19)
+}
+
+.links{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+
+/*---------main page/portfolio settings---------*/
 .portfolio-item{
     border: outset 3px rgb(63, 24, 19);
     background-color: #FED5C6;
@@ -105,6 +104,18 @@ img{
     border: dotted 10px white;
 }
 
+.myWork{
+    width: 700px;
+    color: rgb(63, 24, 19);
+    margin-top: 50px;
+    margin-left: auto; 
+    margin-right: 0;
+}
+
+.myWork p{
+    text-align: left;
+}
+
 .school-projects{
     color: rgb(63, 24, 19);
     text-align: center;
@@ -120,7 +131,7 @@ img{
 }
 
 button{
-    background-color: rgb(255, 211, 193);
+    background-color: rgb(255, 239, 233);
     border: none;
     color: rgb(63, 24, 19);
     padding: 10px 20px;
@@ -131,4 +142,20 @@ button{
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 10px;
+}
+
+a {
+    color: rgb(63, 24, 19);
+}
+  
+a:visited {
+    color: rgb(63, 24, 19);
+}
+  
+a:hover {
+    color: brown;
+}
+  
+a:active {
+    color: brown;
 }
