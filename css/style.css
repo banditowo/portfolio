@@ -10,7 +10,7 @@
 }
 /*---------general theme---------*/
 body {
-    max-width: 2000px;
+    max-width: 1920px;
     font-family: MyFont, sans-serif;
     color: #000000;
     line-height: 1.6;
@@ -25,7 +25,6 @@ body {
 }
 .navbar1{
     background-color: #FFF3EF;
-    color: white;
     padding: 0 10px 0 0;
     align-items: center;
     gap: 10px;
@@ -36,7 +35,6 @@ body {
 
 .navbar2{
     background-color: #FED5C6;
-    color: white;
     padding: 0 10px 0 0;
     align-items: center;
     gap: 10px;
@@ -46,7 +44,7 @@ body {
 }
 
 .name{
-    color:rgb(63, 24, 19);
+    color:#3f1813;
     padding-left: 20px;
 }
 
@@ -56,31 +54,29 @@ body {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
 }
 
 .intro-text{
     padding: 5% 0 0 10%;
-    width: 50%;
-    color: rgb(63, 24, 19);
-    margin-top: 50px;
-    margin-right: 40%;
-    background-color: green;
-    display: inline-block;
+    color: #3f1813;
+    margin-top: 200px;
 }
 
 .intro-img{
-    border-radius: 120px 120px 10px 10px;
+    border-radius: 120px 120px 20px 20px;
     width: 300px;
     height: 400px;
-    margin-left: 70%;
-    background-color: red;
-    display: inline-block;
+    margin-top: 100px;
 }
 .about-me{
     text-align: center;
-    width: 800px;
-    margin: 50px auto 100px auto;
-    color: rgb(63, 24, 19)
+    width: 1000px;
+    margin: 100px auto 100px auto;
+    color: #3f1813;
+    background-color: #FFF3EF;
+    border-radius: 20px;
+    padding: 20px;
 }
 
 .links{
@@ -91,13 +87,20 @@ body {
 /*---------main page/portfolio settings---------*/
 
 .header{
-    background-color: rgb(255, 232, 223);
+    background-color: #ffe8df;
     border-radius: 20px;
-    margin: 30px;
-    color: rgb(63, 24, 19);
+    margin: 50px auto 30px auto;
+    color: #3f1813;
     padding: 10px;
     text-align: center;
-    border: solid 1px rgb(63, 24, 19);
+    width: 90%;
+}
+
+.internship-project{
+    display: flex;
+}
+#internship-item{
+    margin-left: 20%;
 }
 
 .portfolio-item{
@@ -105,9 +108,9 @@ body {
     width: 300px;
     padding: 20px;
     border-radius: 10px;
-    display: inline-block;
     margin: 20px 80px 20px 80px;
     text-align: center;
+    display: inline-block;
 }
 
 img{
@@ -119,7 +122,7 @@ img{
 
 .myWork{
     width: 700px;
-    color: rgb(63, 24, 19);
+    color: #3f1813;
     margin-top: 50px;
     margin-left: auto; 
     margin-right: 0;
@@ -128,7 +131,8 @@ img{
 .myWork p{
     text-align: left;
 }
- .myWork video {
+
+.myWork video {
     border-color: #FED5C6;
     object-fit: cover !important;
     border-radius: 20px !important;
@@ -142,19 +146,27 @@ img{
     text-align: center;
 }
 
-
 button{
-    background-color: rgb(255, 239, 233);
+    font-family: MyFont, sans-serif;
     border: none;
-    color: rgb(63, 24, 19);
+    color: #3f1813;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+    margin: 30px auto 10px auto;
     cursor: pointer;
     border-radius: 10px;
+
+}
+.button1{
+    background-color: #ffe8df;
+}
+
+.button2{
+    background-color: #FED5C6;
+    
 }
 
 /*---------contact settings---------*/
@@ -178,14 +190,10 @@ a:active {
     color: brown;
 }
 
-.hide {
-    width: 100%; overflow: hidden;
+.fixed{
+    width: 70%;
 }
 
-.left{
-    width: 600px; float: left;
-}
-
-.right{
-    margin-left: 620px;
+.flex-item{
+    flex-grow: 1;
 }
