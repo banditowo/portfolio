@@ -158,15 +158,14 @@ button{
     margin: 30px auto 10px auto;
     cursor: pointer;
     border-radius: 10px;
-
 }
+
 .button1{
     background-color: #ffe8df;
 }
 
 .button2{
-    background-color: #FED5C6;
-    
+    background-color: #ffddd1;
 }
 
 /*---------contact settings---------*/
