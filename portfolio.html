@@ -10,8 +10,11 @@
         <section>
             <div class="navbar2">
                 <h3 class="name">Kim Bergman</h3>
-                <a href="home.html">Home</a>
-                <a href="portfolio.html">Portfolio</a>
+                <div class="links">
+                    <a href="home.html">Home</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="contact.html">Contact</a>
+                </div>
             </div>
         </section>
     
@@ -20,8 +23,8 @@
         <div class="header">
             <h2>INTERNSHIP PROJECT</h2>
         </div>
-        <div style="width: 100%; overflow: hidden;">
-            <div style="width: 600px; float: left;"> 
+        <div class="hide">
+            <div class="left"> 
                 <div class="portfolio-item">
                     <h3>Sliding into Luleå</h3>
                     <img src="images\sliding.jpg">
@@ -34,10 +37,12 @@
                     <button><a target="_blank" href="https://blamoramagames.com/">Studio Page</a></button>
                 </div> 
             </div>
-            <div style="margin-left: 620px;"> 
+            <div class="right"> 
                 <div class="myWork">
-                    <h3>My Work</h3>
-                    <img src="images\sliding.jpg">
+                    <h2>My Work</h2>
+                    <video autoplay loop>
+                        <source src="videos/portfolio.vid.mp4" type="video/mp4">
+                    </video>
                     <p id="workInfo">*Animations are done by the artist<br>
                     **Since the game is still in development, some features are still being changed<br>
                     ***This was recorded in engine for the same reason as above</p>
@@ -54,7 +59,7 @@
         <div class="portfolio-item">
             <h3>HOVERPUNK</h3>
             <img src="images\hover.jpg"><br>
-            <p>2 week long school game project, where I worked on the soundtrack for the game, as well as the UI programming for the different menu screens, such as the pause menu, settings, start screen etc.
+            <p>2 week long 3D 'open world' school game project, where I worked on the soundtrack for the game, as well as the UI programming for the different menu screens, such as the pause menu, settings, start screen etc.
             <br>    
             <br>
             Unity - C# - Perforce - BandLab</p>
@@ -64,7 +69,7 @@
         <div class="portfolio-item">
             <h3>Fishing Within</h3>
             <img src="images\fishing.jpg"><br>
-            <p>7 week long school project, where I worked on gameplay programming for the boat; the controlling of it, the different interactions within it, and the small tutorial for it, as well as the main menu soundtrack.
+            <p>7 week long 3D first-person fishing, story-based school project, where I worked on gameplay programming for the boat; the controlling of it, the different interactions within it, and the small tutorial for it, as well as the main menu soundtrack.
             <br>
             <br>
             Unreal Engine - Blueprints - Perforce - Logic X Pro</p>
@@ -74,7 +79,7 @@
         <div class="portfolio-item">
             <h3>Super Enucliation 3D Plus</h3>
             <img src="images/SE3DPlus.jpg"><br>
-            <p>4 week long school game project, where I worked on gameplay programming for the pick-ups; the collecting/storing mechanics, dropping them as decoys, and their VFX upon pickup.
+            <p>4 week long 3D gravitational platformer school game project, where I worked on gameplay programming for the pick-ups; the collecting/storing mechanics, dropping them as decoys, and their VFX upon pickup.
             <br>
             <br>
             Unreal Engine - Blueprints - Perforce</p>

@@ -62,38 +62,51 @@ body {
     padding: 5% 0 0 10%;
     width: 50%;
     color: rgb(63, 24, 19);
+    margin-top: 50px;
+    margin-right: 40%;
+    background-color: green;
+    display: inline-block;
 }
 
 .intro-img{
     border-radius: 120px 120px 10px 10px;
-    width: 400px;
-    height: 450px;
-    margin-left: 60%;
+    width: 300px;
+    height: 400px;
+    margin-left: 70%;
+    background-color: red;
+    display: inline-block;
 }
 .about-me{
     text-align: center;
     width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
+    margin: 50px auto 100px auto;
     color: rgb(63, 24, 19)
 }
 
 .links{
-    margin-top: 20px;
-    font-size: 20px;
+    padding-right: 20px;
 }
 
 
 /*---------main page/portfolio settings---------*/
+
+.header{
+    background-color: rgb(255, 232, 223);
+    border-radius: 20px;
+    margin: 30px;
+    color: rgb(63, 24, 19);
+    padding: 10px;
+    text-align: center;
+    border: solid 1px rgb(63, 24, 19);
+}
+
 .portfolio-item{
-    border: outset 3px rgb(63, 24, 19);
     background-color: #FED5C6;
     width: 300px;
     padding: 20px;
     border-radius: 10px;
     display: inline-block;
-    margin: 20px 100px 20px 100px;
+    margin: 20px 80px 20px 80px;
     text-align: center;
 }
 
@@ -115,20 +128,20 @@ img{
 .myWork p{
     text-align: left;
 }
+ .myWork video {
+    border-color: #FED5C6;
+    object-fit: cover !important;
+    border-radius: 20px !important;
+    width: 500px;
+    height: 250px;
+    margin-top: 10px;
+ }
 
 .school-projects{
     color: rgb(63, 24, 19);
     text-align: center;
 }
-.header{
-    background-color: rgb(255, 232, 223);
-    border-radius: 20px;
-    margin: 30px;
-    color: rgb(63, 24, 19);
-    padding: 10px;
-    text-align: center;
-    border: outset 2px rgb(63, 24, 19);
-}
+
 
 button{
     background-color: rgb(255, 239, 233);
@@ -144,6 +157,11 @@ button{
     border-radius: 10px;
 }
 
+/*---------contact settings---------*/
+
+
+/*---------other settings--------*/
+
 a {
     color: rgb(63, 24, 19);
 }
@@ -158,4 +176,16 @@ a:hover {
   
 a:active {
     color: brown;
+}
+
+.hide {
+    width: 100%; overflow: hidden;
+}
+
+.left{
+    width: 600px; float: left;
+}
+
+.right{
+    margin-left: 620px;
 }
