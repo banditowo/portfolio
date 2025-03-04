@@ -12,7 +12,7 @@
 body {
     max-width: 1920px;
     font-family: MyFont, sans-serif;
-    color: #000000;
+    color: #3f1813;
     line-height: 1.6;
     margin: 0 auto;
 }
@@ -44,7 +44,6 @@ body {
 }
 
 .name{
-    color:#3f1813;
     padding-left: 20px;
 }
 
@@ -52,14 +51,12 @@ body {
 
 .intro{
     width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     display: flex;
 }
 
 .intro-text{
     padding: 5% 0 0 10%;
-    color: #3f1813;
     margin-top: 200px;
 }
 
@@ -72,8 +69,7 @@ body {
 .about-me{
     text-align: center;
     width: 1000px;
-    margin: 100px auto 100px auto;
-    color: #3f1813;
+    margin: 100px auto;
     background-color: #FFF3EF;
     border-radius: 20px;
     padding: 20px;
@@ -89,8 +85,7 @@ body {
 .header{
     background-color: #ffe8df;
     border-radius: 20px;
-    margin: 50px auto 30px auto;
-    color: #3f1813;
+    margin: 50px auto 30px;
     padding: 10px;
     text-align: center;
     width: 90%;
@@ -108,7 +103,7 @@ body {
     width: 300px;
     padding: 20px;
     border-radius: 10px;
-    margin: 20px 80px 20px 80px;
+    margin: 20px 80px;
     text-align: center;
     display: inline-block;
 }
@@ -122,7 +117,6 @@ img{
 
 .myWork{
     width: 700px;
-    color: #3f1813;
     margin-top: 50px;
     margin-left: auto; 
     margin-right: 0;
@@ -149,7 +143,6 @@ img{
 button{
     font-family: MyFont, sans-serif;
     border: none;
-    color: #3f1813;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
@@ -168,17 +161,47 @@ button{
     background-color: #ffddd1;
 }
 
+.personal-projects h3{
+    padding-top: 20px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.content{
+    display: flex;
+}
+
+.music-project{
+    background-color: black;
+    color: #FFF3EF;
+    height: 550px;
+    text-align: center;
+}
+
+
+.music-project p{
+    width: 70%;
+    margin: 120px auto 150px;
+}
+
+.music-project img{
+    height: 250px;
+    width: 250px;
+    margin-right: -200px;
+    margin-top: 50px;
+}
+
 /*---------contact settings---------*/
 
 
 /*---------other settings--------*/
 
 a {
-    color: rgb(63, 24, 19);
+    color: #3f1813;
 }
   
 a:visited {
-    color: rgb(63, 24, 19);
+    color: #3f1813;
 }
   
 a:hover {
