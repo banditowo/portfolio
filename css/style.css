@@ -12,7 +12,7 @@
 body {
     max-width: 1920px;
     font-family: MyFont, sans-serif;
-    color: #000000;
+    color: #3f1813;
     line-height: 1.6;
     margin: 0 auto;
 }
@@ -59,7 +59,6 @@ body {
 
 .intro-text{
     padding: 5% 0 0 10%;
-    color: #3f1813;
     margin-top: 200px;
 }
 
@@ -73,7 +72,6 @@ body {
     text-align: center;
     width: 1000px;
     margin: 100px auto 100px auto;
-    color: #3f1813;
     background-color: #FFF3EF;
     border-radius: 20px;
     padding: 20px;
@@ -90,7 +88,6 @@ body {
     background-color: #ffe8df;
     border-radius: 20px;
     margin: 50px auto 30px auto;
-    color: #3f1813;
     padding: 10px;
     text-align: center;
     width: 90%;
@@ -105,7 +102,6 @@ body {
 
 .portfolio-item{
     background-color: #FED5C6;
-    color: #3f1813;
     width: 300px;
     padding: 20px;
     border-radius: 10px;
@@ -123,7 +119,6 @@ img{
 
 .myWork{
     width: 700px;
-    color: #3f1813;
     margin-top: 50px;
     margin-left: auto; 
     margin-right: 0;
@@ -143,14 +138,12 @@ img{
  }
 
 .school-projects{
-    color: #3f1813;
     text-align: center;
 }
 
 button{
     font-family: MyFont, sans-serif;
     border: none;
-    color: #3f1813;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
