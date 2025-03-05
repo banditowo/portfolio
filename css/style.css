@@ -23,8 +23,7 @@ body {
 .portfolio{
     background-color: #FFF3EF;
 }
-.navbar1{
-    background-color: #FFF3EF;
+.navbar{
     padding: 0 10px 0 0;
     align-items: center;
     gap: 10px;
@@ -33,14 +32,16 @@ body {
     height: 50px;
 }
 
-.navbar2{
+.navbar a{
+    padding-right: 20px;
+}
+
+#nav1{
+    background-color: #FFF3EF
+}
+
+#nav2{
     background-color: #FED5C6;
-    padding: 0 10px 0 0;
-    align-items: center;
-    gap: 10px;
-    display: flex;
-    justify-content: space-between;
-    height: 50px;
 }
 
 .name{
@@ -171,7 +172,7 @@ button{
 
 .music-project p{
     width: 70%;
-    margin: 120px auto 150px;
+    margin: 170px auto 150px;
 }
 
 .music-project img{
@@ -179,6 +180,28 @@ button{
     width: 250px;
     margin-right: -200px;
     margin-top: 50px;
+}
+
+iframe{
+    width: 70%;
+    height: 400px;
+}
+
+.soundcloud{
+    font-size: 10px; 
+    color: #cccccc;
+    line-break: anywhere;
+    word-break: normal;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis; 
+    font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
+    font-weight: 100;
+}
+
+.soundcloud a{
+    color: #cccccc; 
+    text-decoration: none;
 }
 
 .button1{
@@ -195,10 +218,6 @@ button{
 /*---------other settings--------*/
 
 a {
-    color: #3f1813;
-}
-  
-a:visited {
     color: #3f1813;
 }
   
