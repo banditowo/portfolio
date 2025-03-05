@@ -14,13 +14,14 @@ body {
     font-family: MyFont, sans-serif;
     color: #3f1813;
     line-height: 1.6;
-    margin: 0 auto;
+    margin: 10px auto;
+    padding-top: 20px;
 }
-.home{
+.dark{
     background-color: #FED5C6;
 }
 
-.portfolio{
+.light{
     background-color: #FFF3EF;
 }
 .navbar{
@@ -30,6 +31,10 @@ body {
     display: flex;
     justify-content: space-between;
     height: 50px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
 }
 
 .navbar a{
@@ -69,7 +74,7 @@ body {
 }
 .about-me{
     text-align: center;
-    width: 1000px;
+    width: 70%;
     margin: 100px auto;
     background-color: #FFF3EF;
     border-radius: 20px;
@@ -77,7 +82,9 @@ body {
 }
 
 .links{
+    font-size: 1.2em;
     padding-right: 20px;
+    
 }
 
 
@@ -92,15 +99,8 @@ body {
     width: 90%;
 }
 
-.internship-project{
-    display: flex;
-}
-#internship-item{
-    margin-left: 30%;
-}
-
 .portfolio-item{
-    background-color: #FED5C6;
+    background-color: #ffe8df;
     width: 300px;
     padding: 20px;
     border-radius: 10px;
@@ -114,6 +114,15 @@ img{
     height: 150px;
     border-radius: 20px;
     border: dotted 10px white;
+}
+
+    /*---internship project---*/
+
+.internship-project{
+    display: flex;
+}
+#internship-item{
+    margin-left: 30%;
 }
 
 .myWork{
@@ -136,11 +145,14 @@ img{
     margin-top: 10px;
  }
 
+    /*---school projects---*/
+
 .school-projects{
     text-align: center;
 }
 
 button{
+    background-color: #FED5C6;
     font-family: MyFont, sans-serif;
     border: none;
     padding: 10px 20px;
@@ -152,9 +164,12 @@ button{
     cursor: pointer;
     border-radius: 10px;
 }
+
+    /*---personal projects---*/
+
 .personal-projects h3{
     padding-top: 20px;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: center;
 }
 
@@ -204,13 +219,6 @@ iframe{
     text-decoration: none;
 }
 
-.button1{
-    background-color: #ffe8df;
-}
-
-.button2{
-    background-color: #ffddd1;
-}
 
 /*---------contact settings---------*/
 
@@ -220,11 +228,11 @@ iframe{
 a {
     color: #3f1813;
 }
-  
+
 a:hover {
     color: brown;
 }
-  
+
 a:active {
     color: brown;
 }

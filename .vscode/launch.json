@@ -7,8 +7,16 @@
         {
             "type": "chrome",
             "request": "launch",
-            "name": "Launch Chrome",
+            "name": "Launch Chrome IOS",
             "url": "file:///Users/kimbee/Documents/Projekt/portfolio/home.html",
+            "webRoot": "${workspaceFolder}"
+        },
+
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome Windows",
+            "url": "file:///S:/GitHub/projects/portfolio/home.html",
             "webRoot": "${workspaceFolder}"
         }
     ]
